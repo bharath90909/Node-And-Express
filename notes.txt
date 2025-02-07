@@ -1,0 +1,36 @@
+ryan dhal founder of nodejs
+
+console.log(this) in server.js gives use  empty object {}
+
+npm init gives us package.json it is a configuration files contains data about 
+dependencies
+
+blocking - non blocking operations
+
+url-->uniform resource locator
+
+https--> secure means it encrypts the user request 
+http--> dont secure the user request
+
+diff btw express and nodejs
+1. in node we need to handle routes with switch cases and also handle post methods 
+with get,put,post,patch we need be everything from scratch
+2. in node to work with query parameetrs we generakly do importing url module and 
+need to parse it adn acces the query parameetrs
+3. we need to import https moudle adn create server 
+
+1. in express we dont need handle to routes manual instead on app project we gebarrly have http metyods
+from which we geberaly handle routes
+2. in express to handle query parameters dont need to require url modles and parse the req.url 
+instead we can acces url easly with req.query.queryProperty
+3. dont need to import https module and create server insteaed we directly listen the user requests 
+on app object itself like app.listen(8000,()=>console.log("Seever is losstning..."))
+
+
+
+
+
+
+
+
+
